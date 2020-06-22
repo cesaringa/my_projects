@@ -1,3 +1,4 @@
+//gg
 #include <iostream> 
 #include <cstring>
 #include <string>
@@ -61,7 +62,7 @@ void MultiplayerScore()
 	Player player1[N];												// Defining an array in the Struct for the players
 	for (m=0; m<np; ++m)											// This task will be repeated as per the number of players
 	{
-		cout <<'\n'<< "Type the name of the player N° "<< m <<": ";							
+		cout <<'\n'<< "Type the name of the player NÂ° "<< m <<": ";							
 		cin >> player1[m].name;										// Storing the names given in the Struct
 		int j=0;
 		while (j==0)												// Routine to write boggle words up to the user stops it
